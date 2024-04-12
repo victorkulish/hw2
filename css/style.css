@@ -27,7 +27,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -36,7 +36,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -49,8 +49,8 @@ a {
   color: #2e2f42;
 }
 .header-menu-link:hover,
-.Contacts-link:active {
-  color: blue;
+.header-menu-link:active {
+  color: #404bb;
 }
 
 .Contacts-link {
@@ -59,9 +59,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 .Contacts-link:hover {
-  color: blue;
+  color: #404bbf;
 }
 .hero-text {
   font-weight: 700;
