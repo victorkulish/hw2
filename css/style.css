@@ -107,8 +107,7 @@ a {
   text-align: center;
   color: #2e2f42;
   background: #f4f4fd;
-  width: 1440px;
-  height: 732px;
+
   text-transform: capitalize;
 }
 
@@ -176,9 +175,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-
-  width: 1440px;
-  height: 312px;
 }
 .footer {
   background: #2e2f42;
