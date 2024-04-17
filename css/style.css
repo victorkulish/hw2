@@ -57,12 +57,15 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
-.Contacts-link:hover,
-.Contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
+.hero {
+  background: #2e2f42;
+}
+
 .hero-text {
   font-weight: 700;
   font-size: 56px;
@@ -70,7 +73,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  background: #2e2f42;
+
   text-transform: capitalize;
 }
 .hero-btn {
@@ -81,6 +84,7 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -99,6 +103,7 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -127,6 +132,9 @@ a {
   text-align: center;
   color: #434455;
 }
+.our-portfolio {
+  background-color: #f4f4fd;
+}
 .our-portfolio-name {
   font-weight: 700;
   font-size: 36px;
@@ -136,7 +144,9 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
 }
-
+.our-portfolio-list {
+  background-color: #ffffff;
+}
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
