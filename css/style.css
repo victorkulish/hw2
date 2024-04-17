@@ -16,10 +16,8 @@ a {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
-
   overflow: hidden;
 }
 
@@ -49,11 +47,11 @@ a {
   color: #2e2f42;
 }
 .header-menu-link:hover,
-.header-menu-link:active {
-  color: #404bb;
+.header-menu-link:focus {
+  color: #404bbf;
 }
 
-.Contacts-link {
+.contacts-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -61,7 +59,8 @@ a {
   color: #434455;
   font-style: normal;
 }
-.Contacts-link:hover {
+.Contacts-link:hover,
+.Contacts-link:focus {
   color: #404bbf;
 }
 .hero-text {
@@ -72,8 +71,7 @@ a {
   text-align: center;
   color: #fff;
   background: #2e2f42;
-  width: 1440px;
-  height: 600px;
+  text-transform: capitalize;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -84,12 +82,9 @@ a {
   color: #fff;
   background-color: #4d5ae5;
 }
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background: #404bbf;
-}
-.features-list {
-  width: 264px;
-  height: 104px;
 }
 .features-name {
   font-weight: 500;
@@ -114,6 +109,7 @@ a {
   background: #f4f4fd;
   width: 1440px;
   height: 732px;
+  text-transform: capitalize;
 }
 
 .team-name {
@@ -139,6 +135,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-name {
@@ -179,7 +176,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background: #2e2f42;
+
   width: 1440px;
   height: 312px;
+}
+.footer {
+  background: #2e2f42;
 }
