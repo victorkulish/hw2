@@ -94,7 +94,9 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.our-team {
+  background-color: #f4f4fd;
+}
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -106,7 +108,9 @@ a {
 
   text-transform: capitalize;
 }
-
+.team-item {
+  background-color: #ffffff;
+}
 .team-name {
   font-weight: 500;
   font-size: 20px;
