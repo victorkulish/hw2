@@ -30,6 +30,7 @@ a {
 }
 button {
   cursor: pointer;
+  display: block;
 }
 address {
   font-style: normal;
@@ -154,8 +155,8 @@ img {
   margin: 0 auto;
   border-radius: 4px;
   padding: 16px;
-  width: 169px;
-  height: 56px;
+  min-width: 169px;
+
   display: flex;
   text-align: center;
   justify-content: center;
