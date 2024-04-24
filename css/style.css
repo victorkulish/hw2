@@ -204,12 +204,10 @@ img {
   display: flex;
   width: 264px;
   height: 380px;
-  border-radius: 0 0 4px 4px;
 }
 .team-items {
   background-color: #ffffff;
   padding: 32px 0;
-  display: flex;
 }
 .team-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
