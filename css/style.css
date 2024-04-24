@@ -28,10 +28,7 @@ a {
   margin-top: 0;
   margin-bottom: 0;
 }
-button {
-  cursor: pointer;
-  display: block;
-}
+
 address {
   font-style: normal;
 }
