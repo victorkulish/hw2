@@ -284,12 +284,10 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.footer-wrap {
+.footer {
   background: #2e2f42;
   padding-top: 100px;
-  padding-left: 0;
   padding-bottom: 100px;
-  padding-right: 864px;
 }
 
 .footer-icon {
