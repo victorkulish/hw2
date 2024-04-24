@@ -202,14 +202,17 @@ img {
 }
 .team-list {
   display: flex;
-  gap: 24px;
   width: 264px;
   height: 380px;
   border-radius: 0 0 4px 4px;
+  margin-right: 24px;
 }
-.team-item {
+.team-items {
   background-color: #ffffff;
   padding: 32px 0;
+  display: flex;
+}
+.team-item {
 }
 .team-name {
   font-weight: 500;
