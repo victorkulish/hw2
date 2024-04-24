@@ -255,20 +255,21 @@ img {
   flex-direction: row;
   row-gap: 48px;
   column-gap: 24px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .our-portfolio-item {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  width: 360px;
-  height: 420px;
   border-top: none;
 }
 .portfolio-name-item {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  width: 360px;
+  height: 120px;
 }
 .portfolio-name {
   font-weight: 500;
