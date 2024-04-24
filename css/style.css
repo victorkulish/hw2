@@ -255,7 +255,6 @@ img {
   flex-direction: row;
   row-gap: 48px;
   column-gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .our-portfolio-item {
