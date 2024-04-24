@@ -151,7 +151,9 @@ img {
   border-radius: 4px;
   padding: 16px;
   min-width: 169px;
-
+  height: 56px;
+  border: none;
+  display: block;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -199,16 +201,18 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
   gap: 24px;
   width: 264px;
   height: 380px;
+  border-radius: 0 0 4px 4px;
 }
 .team-item {
   background-color: #ffffff;
+  padding: 32px 0;
 }
 .team-name {
   font-weight: 500;
@@ -217,7 +221,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 32px;
+  margin-bottom: 8px;
 }
 .team-work {
   font-weight: 400;
