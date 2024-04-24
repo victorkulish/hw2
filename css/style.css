@@ -246,14 +246,15 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 80px;
+  margin-bottom: 72px;
 }
 .our-portfolio-list {
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 50px 24px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .our-portfolio-item {
