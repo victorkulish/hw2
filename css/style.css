@@ -204,7 +204,7 @@ img {
   display: flex;
   width: 264px;
   height: 380px;
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 24px) / 4);
 }
 .team-items {
   background-color: #ffffff;
