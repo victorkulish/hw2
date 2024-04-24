@@ -205,7 +205,6 @@ img {
   width: 264px;
   height: 380px;
   border-radius: 0 0 4px 4px;
-  margin-right: 24px;
 }
 .team-items {
   background-color: #ffffff;
@@ -213,6 +212,12 @@ img {
   display: flex;
 }
 .team-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  margin-right: 24px;
+  border-radius: 0px 0px 4px 4px;
+}
+.team-item-last {
+  margin-right: 0;
 }
 .team-name {
   font-weight: 500;
