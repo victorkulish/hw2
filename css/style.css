@@ -202,8 +202,7 @@ img {
 }
 .team-list {
   display: flex;
-  width: 264px;
-  height: 380px;
+
   width: calc((100% - 24px) / 4);
 }
 .team-items {
@@ -218,6 +217,7 @@ img {
 .team-item-last {
   width: calc((100% - 72px) / 4);
   margin-right: 0;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-name {
   font-weight: 500;
