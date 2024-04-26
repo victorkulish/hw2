@@ -203,8 +203,6 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-
-  width: calc((100% - 24px) / 4);
 }
 .team-items {
   background-color: #ffffff;
