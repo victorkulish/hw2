@@ -214,11 +214,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
 }
-.team-item-last {
-  width: calc((100% - 72px) / 4);
-  margin-right: 0;
-  border-radius: 0px 0px 4px 4px;
-}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
