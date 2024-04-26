@@ -212,8 +212,8 @@ img {
 .team-item {
   margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
-
   gap: 24px;
+  width: calc((100% - 24px) / 4);
 }
 
 .team-name {
