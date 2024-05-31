@@ -474,6 +474,9 @@ img {
   transform: translate(-50%, -50%);
   padding: 72px 24px 24px 24px;
 }
+.modal-input-wrap {
+  position: relative;
+}
 .modal-btn {
   border-radius: 50%;
   width: 24px;
@@ -508,7 +511,6 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   height: 40px;
-  margin-bottom: 8px;
   background-color: transparent;
 }
 .label-text {
@@ -520,15 +522,16 @@ img {
   display: block;
   margin-bottom: 4px;
 }
-.input-form {
+.modal-field-icon {
+  padding-left: 38px;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.modal-field {
   margin-bottom: 8px;
 }
-.input-type {
-  height: 40px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  background-color: transparent;
-  padding-left: 38px;
-  outline: transparent;
-  margin-bottom: 8px;
+.modal-input:focus {
+  border: 1px solid #4d5ae5;
 }
