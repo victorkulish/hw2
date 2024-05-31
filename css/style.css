@@ -539,6 +539,7 @@ img {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  fill: black;
 }
 .modal-field {
   margin-bottom: 8px;
