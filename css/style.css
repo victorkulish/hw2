@@ -410,10 +410,12 @@ img {
 }
 .footer-cont {
   display: flex;
+  flex-direction: column;
   align-items: baseline;
 }
 .footer-info {
-  margin-right: 120px;
+  margin-bottom: 70px;
+  /* margin-right: 120px; */
 }
 .footer-icon {
   font-family: "Raleway", sans-serif;
@@ -436,6 +438,7 @@ img {
   color: #f4f4fd;
 }
 .footer-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -444,13 +447,14 @@ img {
   max-height: 112px;
 }
 .footer-social-text {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 .social-list {
   display: flex;
@@ -478,8 +482,11 @@ img {
 .logo-link-footer:focus {
   background-color: #31d0aa;
 }
+.footer-social {
+  margin-bottom: 70px;
+}
 .email-input {
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 .email-input-text {
   font-weight: 500;
@@ -488,9 +495,12 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 .email-field {
   display: flex;
+  flex-direction: column;
   gap: 24px;
 }
 .footer-input {
@@ -507,7 +517,8 @@ img {
   color: #ffffff;
 }
 .subscribe-btn {
-  min-width: 165px;
+  width: 165px;
+  /* min-width: 165px; */
   height: 40px;
   display: flex;
   justify-content: center;
