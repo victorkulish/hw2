@@ -584,6 +584,8 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.modal-field-check {
   margin-bottom: 24px;
 }
 .modal-check-text span {
