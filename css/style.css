@@ -585,7 +585,7 @@ img {
   align-items: center;
   gap: 8px;
 }
-.modal-field-check {
+.modal-checked {
   margin-bottom: 24px;
 }
 .modal-check-text span {
