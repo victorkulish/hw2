@@ -584,6 +584,7 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-bottom: 24px;
 }
 .modal-check-text span {
   width: 16px;
@@ -606,4 +607,10 @@ img {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+.privacy-policy {
+  line-height: 1.3;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
