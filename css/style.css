@@ -631,13 +631,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-
-  gap: 8px;
 }
 .modal-checked {
   margin-bottom: 24px;
 }
-.modal-check-text span {
+.checkbox {
   width: 16px;
   height: 16px;
   border-radius: 2px;
