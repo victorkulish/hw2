@@ -899,6 +899,9 @@ img {
     letter-spacing: 0.04em;
     line-height: 1.6;
   }
+  .mob-menu {
+    display: none;
+  }
   .hero {
     padding-top: 120px;
     padding-bottom: 110px;
@@ -1016,6 +1019,9 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
+  }
+  .mob-menu {
+    display: none;
   }
   .hero {
     padding-top: 188px;
