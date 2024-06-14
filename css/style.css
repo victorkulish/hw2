@@ -148,6 +148,10 @@ img {
 .contacts-link:focus {
   color: #404bbf;
 }
+.menu-icon {
+  width: 24px;
+  height: 24px;
+}
 .menu-open-btn {
   border: none;
   display: block;
@@ -902,6 +906,9 @@ img {
   .mob-menu {
     display: none;
   }
+  .menu-close-btn {
+    display: none;
+  }
   .hero {
     padding-top: 120px;
     padding-bottom: 110px;
@@ -1021,6 +1028,9 @@ img {
     gap: 40px;
   }
   .mob-menu {
+    display: none;
+  }
+  .menu-close-btn {
     display: none;
   }
   .hero {
