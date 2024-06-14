@@ -906,8 +906,12 @@ img {
   .mob-menu {
     display: none;
   }
-  .menu-close-icon {
+  .menu-open-btn {
+    border: none;
     display: none;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
   }
   .hero {
     padding-top: 120px;
@@ -1030,8 +1034,12 @@ img {
   .mob-menu {
     display: none;
   }
-  .menu-close-icon {
+  .menu-open-btn {
+    border: none;
     display: none;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
   }
   .hero {
     padding-top: 188px;
