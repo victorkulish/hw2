@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Regular.eot");
+  src: local("Gilroy Regular"), local("Gilroy-Regular"),
+    url("Gilroy-Regular.eot?") format("embedded-opentype"),
+    url("Gilroy-Regular.woff2") format("woff2"),
+    url("Gilroy-Regular.woff") format("woff"),
+    url("Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Bold.eot");
+  src: local("Gilroy Bold"), local("Gilroy-Bold"),
+    url("Gilroy-Bold.eot?") format("embedded-opentype"),
+    url("Gilroy-Bold.woff2") format("woff2"),
+    url("Gilroy-Bold.woff") format("woff"),
+    url("Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Semibold.eot");
+  src: local("Gilroy Semibold"), local("Gilroy-Semibold"),
+    url("Gilroy-Semibold.eot?") format("embedded-opentype"),
+    url("Gilroy-Semibold.woff2") format("woff2"),
+    url("Gilroy-Semibold.woff") format("woff"),
+    url("Gilroy-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Medium.eot");
+  src: local("Gilroy Medium"), local("Gilroy-Medium"),
+    url("Gilroy-Medium.eot?") format("embedded-opentype"),
+    url("Gilroy-Medium.woff2") format("woff2"),
+    url("Gilroy-Medium.woff") format("woff"),
+    url("Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  font-family: "Gilroy", sans-serif;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  width: 335px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+/* ----------------------------------header---------------------------------------
+----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------- */
+.header {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.header-main {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logotype {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+.menu-nav-list {
+  display: none;
+}
+.menu-nav-item {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #0c0c0c;
+}
+.social-list {
+  display: none;
+}
+.menu-open-btn {
+  border: none;
+  display: block;
+  width: 28px;
+  height: 14px;
+  background-color: transparent;
+  margin-left: auto;
+}
